@@ -80,8 +80,8 @@
 
             bindings = <
         &kp Q       &kp W       &kp F       &kp P       &kp B                   &kp J       &kp L       &kp U       &kp Y       &kp SEMI
-        &kp A       &mt SYM R   &mt LCTRL S &mt LSHFT T &kp G                   &kp H       &mt RSHFT N &mt RCTRL E &mt SYM I   &kp O
-&lt NAV TAB &kp Z   &kp X       &kp C       &kp D       &kp V                   &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
+        &kp A       &mt SYM R   &mt LCTRL S &mt LSHFT T &kp G                   &kp M       &mt RSHFT N &mt RCTRL E &mt SYM I   &kp O
+&lt NAV TAB &kp Z   &kp X       &kp C       &kp D       &kp V                   &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
                                 &kp DEL     &lt SC TAB  &kp SPACE               &kp RET     &lt NAV ESC &kp BSPC
             >;
         };
