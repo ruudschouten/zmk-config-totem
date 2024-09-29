@@ -39,7 +39,7 @@
             };
             combo_right_gui {
                 timeout-ms = <50>;
-                key-positions = <0 1>;
+                key-positions = <8 9>;
                 bindings = <&kp LGUI>;
             };
             combo_left_alt {
@@ -172,20 +172,20 @@
 
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃           ┃           ┃           ┃ SHIFT + F6┃ ALT + F12 ┃   ┃           ┃    F7     ┃    F8     ┃    F9     ┃    F12    ┃
+            //             ┃           ┃           ┃           ┃ SHIFT + F6┃ ALT + F12 ┃   ┃           ┃     7     ┃     8     ┃     9     ┃    ALT    ┃
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃ CTRL + A  ┃CTRL+SHFT+R┃ CTRL + S  ┃CTRL+SHFT+B┃ CTRL+ALT+L┃   ┃           ┃    F4     ┃    F5     ┃    F6     ┃    F11    ┃
+            //             ┃ CTRL + A  ┃CTRL+SHFT+R┃ CTRL + S  ┃CTRL+SHFT+B┃ CTRL+ALT+L┃   ┃           ┃     4     ┃     5     ┃     6     ┃   SHIFT   ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃           ┃ CTRL + Z  ┃ CTRL + X  ┃ CTRL + C  ┃ CTRL + B  ┃ CTRL + V  ┃   ┃           ┃    F1     ┃    F2     ┃    F3     ┃    F10    ┃           ┃
+            // ┃           ┃ CTRL + Z  ┃ CTRL + X  ┃ CTRL + C  ┃ CTRL + B  ┃ CTRL + V  ┃   ┃           ┃     1     ┃     2     ┃     3     ┃  CONTROL  ┃           ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
+            //                                     ┃           ┃           ┃           ┃   ┃    ADJ    ┃           ┃     0     ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans      &trans       &trans     &kp LS(F6)   &kp LA(F12)         &trans      &kp F7      &kp F8      &kp F9      &kp F12
-        &kp LC(A)   &kp LC(LS(R))&kp LC(S)  &kp LC(LA(B))&kp LC(LA(L))       &trans      &kp F4      &kp F5      &kp F6      &kp F11  
-&trans  &kp LC(Z)   &kp LC(X)    &kp LC(C)  &kp LC(B)    &kp LC(V)           &trans      &kp F1      &kp F2      &kp F3      &kp F10     &trans      
-                                 &trans     &trans       &trans              &trans      &trans      &trans      
+        &trans      &trans       &trans     &kp LS(F6)   &kp LA(F12)         &trans      &kp 7      &kp 8      &kp 9      &kp LALT
+        &kp LC(A)   &kp LC(LS(R))&kp LC(S)  &kp LC(LA(B))&kp LC(LA(L))       &trans      &kp 4      &kp 5      &kp 6      &kp LSHFT  
+&trans  &kp LC(Z)   &kp LC(X)    &kp LC(C)  &kp LC(B)    &kp LC(V)           &trans      &kp 1      &kp 2      &kp 3      &kp LCTRL     &trans      
+                                 &trans     &trans       &trans              &mo ADJ     &trans      &trans      
                         >;
                 };
         };
