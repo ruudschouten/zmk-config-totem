@@ -105,8 +105,8 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans      &trans      &trans      &trans      &trans                  &trans      &kp PG_UP   &kp UP      &kp KP_N9   &trans      
-        &trans      &kp LALT    &kp LCTRL   &kp LSHIFT  &trans                  &trans      &kp LEFT    &kp DOWN    &kp KP_N6   &trans      
+        &trans      &trans      &trans      &trans      &trans                  &trans      &kp PG_UP   &kp UP      &kp PG_DN   &trans      
+        &trans      &kp LALT    &kp LCTRL   &kp LSHIFT  &trans                  &trans      &kp LEFT    &kp DOWN    &kp RIGHT   &trans      
 &trans  &trans      &trans      &trans      &trans      &trans                  &trans      &kp HOME    &kp CAPS    &kp END     &trans      &trans      
                                 &trans      &trans      &trans                  &mo ADJ     &trans      &trans
             >;
@@ -185,7 +185,7 @@
         &trans      &trans       &trans     &kp LS(F6)   &kp LA(F12)         &trans      &kp 7      &kp 8      &kp 9      &kp LALT
         &kp LC(A)   &kp LC(LS(R))&kp LC(S)  &kp LC(LA(B))&kp LC(LA(L))       &trans      &kp 4      &kp 5      &kp 6      &kp LSHFT  
 &trans  &kp LC(Z)   &kp LC(X)    &kp LC(C)  &kp LC(B)    &kp LC(V)           &trans      &kp 1      &kp 2      &kp 3      &kp LCTRL     &trans      
-                                 &trans     &trans       &trans              &mo ADJ     &trans      &trans      
+                                 &trans     &trans       &trans              &mo ADJ     &trans     &trans
                         >;
                 };
         };
