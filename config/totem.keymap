@@ -174,7 +174,7 @@
             //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
             //             ┃           ┃           ┃           ┃ SHIFT + F6┃ ALT + F12 ┃   ┃           ┃     7     ┃     8     ┃     9     ┃    ALT    ┃
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃ CTRL + A  ┃CTRL+SHFT+R┃ CTRL + S  ┃CTRL+SHFT+B┃ CTRL+ALT+L┃   ┃           ┃     4     ┃     5     ┃     6     ┃   SHIFT   ┃
+            //             ┃ CTRL + A  ┃CTRL+SHFT+R┃ CTRL + S  ┃CTRL+SHFT+T┃ CTRL+ALT+L┃   ┃           ┃     4     ┃     5     ┃     6     ┃   SHIFT   ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
             // ┃           ┃ CTRL + Z  ┃ CTRL + X  ┃ CTRL + C  ┃ CTRL + B  ┃ CTRL + V  ┃   ┃           ┃     1     ┃     2     ┃     3     ┃  CONTROL  ┃           ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -183,7 +183,7 @@
 
             bindings = <
         &trans      &trans       &trans     &kp LS(F6)   &kp LA(F12)         &trans      &kp N7     &kp N8     &kp N9     &kp LALT
-        &kp LC(A)   &kp LC(LS(R))&kp LC(S)  &kp LC(LA(B))&kp LC(LA(L))       &trans      &kp N4     &kp N5     &kp N6     &kp LSHFT  
+        &kp LC(A)   &kp LC(LS(R))&kp LC(S)  &kp LC(LS(T))&kp LC(LA(L))       &trans      &kp N4     &kp N5     &kp N6     &kp LSHFT  
 &trans  &kp LC(Z)   &kp LC(X)    &kp LC(C)  &kp LC(B)    &kp LC(V)           &trans      &kp N1     &kp N2     &kp N3     &kp LCTRL     &trans      
                                  &trans     &trans       &trans              &mo ADJ     &trans     &kp N0
                         >;
